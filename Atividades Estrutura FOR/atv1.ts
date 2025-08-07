@@ -7,7 +7,7 @@ const teclado = require('prompt-sync')();
 
 let x = parseInt(teclado('Digite um valor inteiro X (1 <= X <= 1000): '));
 for (let i = 1; i <= x; i++) {
-    if (i % 2 !== 0) {
+    if (i % 2 != 0) {
         console.log(i);
     }
 }
