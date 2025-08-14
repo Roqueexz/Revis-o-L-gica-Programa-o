@@ -3,7 +3,7 @@ incorreta informada, escrever a mensagem "Senha Invalida".
 Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o 
 algoritmo encerrado. Considere que a senha correta é o valor 2002. 
 
-Pedro Henrique Santos Roque */ 
+Pedro Henrique Santos Roque - */ 
 
 console.log("Verificação de senha: ");
 const teclado = require(`prompt-sync`)();
